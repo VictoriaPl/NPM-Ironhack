@@ -1,0 +1,289 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700");
+
+* {
+  font-family: "Roboto";
+  margin: 0;
+}
+
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding-top: 10px;
+  height: 20px;
+  font-size: 11px;
+  display: block;
+}
+
+nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+  float: left;
+}
+
+.top-links {
+  display: inline-block;
+  float: right;
+  padding: 0;
+  margin: 0 5px 0 0;
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.top-left {
+  position: absolute;
+  margin-left: 20px;
+}
+
+.heart {
+  padding-right: 10px;
+}
+
+.header {
+  color: white;
+  background-color: rgb(28, 86, 116);
+
+}
+
+.header-search.bar {
+  height: 50px;
+}
+
+.npm-logo {
+  height: 32px;
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 7px;
+}
+
+.search-bar {
+  width: 80%;
+  height: 30px;
+  margin-left: 100px;
+  background-color: rgb(31, 82, 111);  
+  margin-top: 10px;
+  border: 0.1px solid rgba(255, 255, 255, 0.13);
+  color: rgba(255, 255, 255, 0.13);
+}
+
+.search-button {
+  background-color: rgb(31, 82, 111);
+  border: 0.1px solid rgba(255, 255, 255, 0.13);
+  height: 33px;
+  margin-top: 10px;
+  position: absolute;
+  padding-top: 4.7px;
+  padding: 4.7px 7px 0 7px;
+}
+
+.loupe {
+  height: 15px;
+}
+
+.singup-button {
+  border: 0 solid;
+  background-color: rgb(28, 86, 116);
+  color: white;
+  font-size: 10px;
+  margin-top: 10px;
+  margin-left: 30px;
+ }
+
+.bear-logo {
+  height: 32px;
+  position: absolute;
+  margin-top: 7px;
+}
+
+.build-amazing-things {
+  height: 260px;
+  background-image: url('Images/city-scape.svg');
+}
+
+.header-title {
+ position: absolute;
+ text-align: left;
+ margin-left: 20%;
+ margin-top: 40px;
+ font-weight: 300;
+}
+
+.header-text{
+  position: absolute;
+  text-align: left;
+  margin-top: 90px;
+  margin-left: 20%;
+  margin-right: 47.5%;
+  font-size: 13px;
+  line-height: 1.5;
+  
+}
+
+.header-button {
+  position: absolute;
+  text-align: center;
+  text-decoration: none;
+  font-size: 13.5px;
+  margin-top: 165px;
+  margin-left: 260px;
+  border: none;
+  color: white;
+  background-color: rgb(240, 146, 51);
+  border-radius: 12px;
+  padding: 6px 12px;
+}
+
+.first-section {
+  height: 380px;
+  color: white;
+  background: rgb(39, 53, 71) url("Images/collaboration.svg") no-repeat 31% 48%;
+  background-size: 30%;
+}
+
+.first-section-title {
+ text-align: left;
+ font-weight: 250;
+ position: absolute;
+ margin-left: 55%;
+ margin-top: 90px;
+ margin-right: 25%;
+}
+
+.first-section-list {
+  position: absolute;
+  text-align: left;
+  margin-left: 53%;
+  margin-top: 150px;
+  margin-right: 20%;
+  font-size: 12px;
+  font-weight: 200;
+  line-height: 30px;
+  list-style: none;
+}
+
+.first-section-li::before {
+  content: "";
+  border: 1px white solid !important;
+  border-radius: 50px;
+  margin-top: 13px;
+  margin-left: -13px;
+  position: absolute;
+}
+
+.first-section-button {
+  position: absolute;
+  text-align: left;
+  margin-left: 56%;
+  margin-top: 250px;
+  margin-right: 20%;
+  font-size: 12px;
+  text-decoration: none;
+  border: none;
+  color: white;
+  background-color: rgb(203, 56, 55);
+  border-radius: 12px;
+  padding: 7px 18px;
+}
+
+ 
+.first-section-link {
+  position: absolute;
+  text-decoration: none;
+  text-align: left;
+  margin-left: 55%;
+  margin-top: 285px;
+  margin-right: 20%;
+  font-size: 11px;
+  color: white;
+}
+
+.second-section {
+  height: 350px;
+  color: white;
+  background-size: 30%;
+  background: url("Images/forklift.svg") no-repeat;
+}
+
+.second-section-title {
+  text-align: left;
+  font-weight: 250;
+  position: absolute;
+  margin: 80px 0px 4px 250px;
+  font-size: 28px;
+  font-weight: 260;
+}
+
+.second-section-text {
+  text-align: left;
+  position: absolute;
+  margin: 120px 750px 2px 280px;
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+.second-section-anchor {
+  position: absolute;
+  text-align: left;
+  font-size: 15px;
+  text-decoration: none;
+  border: none;
+  color: white;
+  background-color: rgb(49, 68, 88);
+  border-radius: 20px;
+  padding: 7px 17px;
+  margin: 180px 0px 4px 300px;
+}
+
+.third-section {
+  height: 280px;
+}
+
+.t-s-title {
+ text-align: center;
+ margin-top: 50px;
+ color: rgb(83, 88, 98);
+ font-size: 25px;
+ font-weight: 300;
+}
+
+.t-s-subheading {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 11.5px;
+  color: rgb(135, 145, 156);
+}
+
+.t-s-elements {
+  max-width: 100%;
+  margin: 20px 250px;
+  text-align: center;
+  font-size: 12px;
+}
+
+.col {
+  width: 33%;
+  float: left;
+  line-height: 1.5;
+  font-weight: 300;
+  color: rgb(83, 88, 98);
+}
+
+.t-s-img {
+  height: 85px;
+}
+
+.t-s-text {
+  margin-right: 35px;
+  margin-left: 35px;
+}
+
+.t-s-anchor {
+  text-decoration: none;
+  color: rgb(208, 74, 73);
+}
+
+.clearfix {
+  clear: both;
+}
